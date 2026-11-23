@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">USB Second Screen</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_waiting">Waiting for the PC…\n\nStart the server on your computer and keep USB debugging on.</string>
+    <string name="status_reconnecting">Connection lost. Reconnecting…</string>
+    <string name="status_error_prefix">Error: %1$s</string>
+    <string name="status_error_connection_refused">Connection refused.\n\nMake sure the server is running and adb reverse is set up:\nadb reverse tcp:7878 tcp:7878</string>
+    <string name="status_error_timeout">Connection timed out.\n\nCheck that USB debugging is enabled and the cable is connected.</string>
+    <string name="status_error_codec">Video decoder error.\n\nTry restarting the app.</string>
+</resources>

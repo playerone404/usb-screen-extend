@@ -1,0 +1,23 @@
+[Unit]
+Description=USB Second Screen — stream a virtual monitor to an Android phone over USB
+Documentation=https://github.com/niccolove/usb-second-screen
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/usb-second-screen
+Restart=on-failure
+RestartSec=3
+# The server talks to the user's desktop session / PipeWire / D-Bus.
+# It is intentionally a user unit, not a system unit.
+Environment=DISPLAY=:0
+# Let the compositor / portal environment variables through.
+# Most are inherited from the user session automatically.
+
+# Clean shutdown on stop / reboot
+KillSignal=SIGTERM
+TimeoutStopSec=5
+
+[Install]
+WantedBy=graphical-session.target

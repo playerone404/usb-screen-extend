@@ -1,0 +1,14 @@
+# usb-second-screen server – Python dependencies
+#
+# Core: the server uses only the Python 3 standard library.
+#
+# Optional (install for specific features / back-ends):
+jeepney>=0.8     # Portal back-end (KDE Plasma / GNOME) – D-Bus communication
+evdev>=1.6       # Touch injection via uinput (--touch flag)
+
+# Note: on most distributions these are available as system packages:
+#   Fedora:  python3-jeepney  python3-evdev
+#   Ubuntu:  python3-jeepney  python3-evdev
+#   Arch:    python-jeepney   python-evdev
+#
+# You can also install them in a venv:  pip install -r requirements.txt

@@ -1,0 +1,83 @@
+# ==========================================
+# USB Second Screen .gitignore
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Android & Gradle
+.gradle/
+.android/
+local.properties
+**/build/
+**/*.apk
+!usb-second-screen.apk
+**/*.aab
+**/*.keystore
+**/*.jks
+*.iml
+.cxx/
+
+# Test outputs / dumps
+test_*.png
+shots/
+backup/
+work/
+unwanted/
+
+# Binary executables downloaded at runtime
+windows_screen_extend/bin/*.exe
+windows_screen_extend/bin/*.dll

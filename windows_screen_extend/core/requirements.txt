@@ -1,0 +1,11 @@
+# USB Second Screen Windows Server
+# =================================
+#
+# No external pip dependencies required!
+# The server runs entirely on Python 3's built-in standard library:
+#   - socket, struct, threading, subprocess, time, argparse, os, sys
+#   - ctypes (built into Python for Windows API and touch injection)
+#
+# External software requirements:
+# 1. FFmpeg (run bin/download_tools.bat or install via `winget install Gyan.FFmpeg`)
+# 2. Android platform-tools / adb (run bin/download_tools.bat or install via Android SDK)
