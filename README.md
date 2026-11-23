@@ -33,7 +33,7 @@ When you plug in your phone, the server creates a **true extended desktop monito
 > - **Initial Prototype:** Initially created and prototyped using **Claude (Free Plan)**.
 > - **Refactor & Hardening:** Later rewritten, restructured, hardened, and unit-tested using **Google Antigravity (Gemini 3.8 Flash)**.
 >
-> Because this is an AI-assisted project driven by a system admin's workflow requirements, issues, code reviews, and community pull requests are very welcome!
+> Because this is an AI-assisted project driven by a system admin, issues, code reviews, and community pull requests are very welcome!
 
 ---
 
