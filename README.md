@@ -41,16 +41,28 @@ When you plug in your phone, the server creates a **true extended desktop monito
 
 <!-- 
 ======================================================================
-  [YOUR BACKSTORY HERE]
-  You can fill this section out with your own personal story! 
-  For example:
-  - What sparked the idea (e.g. working as a sysadmin needing extra screen real estate on the go)
-  - Why existing wireless apps were too laggy or required subscriptions
-  - How you iterated the idea using AI tools
+The idea for this project came to me when I had a spare Android phone lying around collecting dust. I thought, why not put it to good use by turning it into a second display for my Fedora laptop?
+
+I searched through several applications, but couldn't find anything for Linux that worked quite the way I wanted. So, I turned to Claude (the free version, of course :)) and asked whether it was possible to build an application that could turn an Android phone into a second monitor for a Linux machine.
+
+That led to the first version of the project, which initially supported only Fedora running KDE Plasma with the Wayland compositor.
+
+However, I soon ran into the limitations of Claude's free tier and found it difficult to make further changes and improvements. That's when I got access to a free Google Gemini Pro subscription through a Jio recharge offer (an Indian telecom provider).
+
+That's when the real development and improvements began. I added support for X11-based desktop environments and eventually extended compatibility to Windows as well.
+
+Since I had little to no experience with Android app development or coding in general, I relied heavily on Gemini to handle most of the development, while I enjoyed my coffee and guided the process along. :)
+
+Once the application reached a stage I was happy with, I asked Gemini to perform a comprehensive set of unit tests to check its reliability and identify potential security vulnerabilities. The test cases and their results are included in the repository for anyone interested in reviewing them.
+
+I was initially a little hesitant about making the project public on GitHub, but eventually decided to share it. My hope is that someone else who has faced the same problem might find it useful.
+
+If you're a developer who happens to come across this project, I'd really appreciate any feedback, suggestions, or bug reports. Every bit of input that could help improve the project is welcome!
+
+Thanks for checking it out!
 ======================================================================
 -->
 
-*(Placeholder: Add your personal story and inspiration here...)*
 
 ---
 
