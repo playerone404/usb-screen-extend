@@ -39,7 +39,7 @@ When you plug in your phone, the server creates a **true extended desktop monito
 
 ## 📖 Backstory
 
-<!-- 
+
 ======================================================================
 The idea for this project came to me when I had a spare Android phone lying around collecting dust. I thought, why not put it to good use by turning it into a second display for my Fedora laptop?
 
@@ -61,7 +61,6 @@ If you're a developer who happens to come across this project, I'd really apprec
 
 Thanks for checking it out!
 ======================================================================
--->
 
 
 ---
