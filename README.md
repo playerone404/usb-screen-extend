@@ -40,7 +40,6 @@ When you plug in your phone, the server creates a **true extended desktop monito
 ## 📖 Backstory
 
 
-======================================================================
 The idea for this project came to me when I had a spare Android phone lying around collecting dust. I thought, why not put it to good use by turning it into a second display for my Fedora laptop?
 
 I searched through several applications, but couldn't find anything for Linux that worked quite the way I wanted. So, I turned to Claude (the free version, of course :)) and asked whether it was possible to build an application that could turn an Android phone into a second monitor for a Linux machine.
@@ -60,7 +59,7 @@ I was initially a little hesitant about making the project public on GitHub, but
 If you're a developer who happens to come across this project, I'd really appreciate any feedback, suggestions, or bug reports. Every bit of input that could help improve the project is welcome!
 
 Thanks for checking it out!
-======================================================================
+
 
 
 ---
